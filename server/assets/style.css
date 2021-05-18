@@ -1,0 +1,12 @@
+.graph1 {grid-area: graph1; width: 100%; border-style: dotted; border-color: red}
+.graph2 {grid-area: graph2; width: 100%; border-style: dotted; border-color: green}
+.graph3 {grid-area: graph3; width: 100%; border-style: dotted; border-color: blue}
+.graph4 {grid-area: graph4; width: 100%; border-style: dotted; border-color: black}
+
+.grid-layout {
+    display: grid;
+    grid-template-areas:
+    'graph1 graph2'
+    'graph3 graph4';
+    grid-gap: 5px;
+}
